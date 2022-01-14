@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.first{
+    background-color: rgb(168, 35, 135);  
+}
+
+.left{
+    background-color: chartreuse;
+    float: left;
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+}
+
+.right{
+    background-color: coral;
+    float: right;
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.second{
+    background-color: cyan;
+}
+
+.right.small{
+    background-color: rgb(20, 17, 17);
+    width: 50px;
+    height: 50px;
+    float: right;
+}
+
+.right.smaller{
+    background-color: firebrick;
+    width: 100px;
+    height: 75px;
+    float: right;
+}
+
+.right.bigger{
+    background-color: indigo;
+    width: 150px;
+    height: 125px;
+    float: right;
+}
