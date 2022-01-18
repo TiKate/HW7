@@ -34,23 +34,81 @@ body{
     background-color: cyan;
 }
 
+.conteiner{
+    float: right;
+}
+
 .right.small{
     background-color: rgb(20, 17, 17);
     width: 50px;
     height: 50px;
-    float: right;
+    float: left;
+    margin-top: 55px;
 }
 
 .right.smaller{
     background-color: firebrick;
     width: 100px;
     height: 75px;
-    float: right;
+    float: left;
+    margin-top: 45px;
 }
 
 .right.bigger{
     background-color: indigo;
     width: 150px;
     height: 125px;
+    float: left;
+    margin-top: 25px;
+}
+
+.object{
+    background-color: gold;
+    width: 100px;
+    height: 150px;
+    float: left;
+    margin: 10px;
+}
+
+.middle{
+    background-color: rgb(125, 228, 180);
+    margin: auto;
+}
+
+.max{
+    width: 220px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.firstname{
+    background-color: green;
+    height: 110px;
+    width: 110px;
+    float: left;
+    margin-top: 5px;
+    margin-bottom: 5px;    
+}
+
+.box{
     float: right;
+}
+
+.name{
+    height: 50px;
+    width: 100px;
+    background-color: gray;
+    margin: 5px;
+    margin-top: 7px;   
+}
+
+.block{
+    background-color: burlywood;
+}
+
+.last{
+    float: right;
+    width: 220px;
+    margin-right: 50px;
 }
